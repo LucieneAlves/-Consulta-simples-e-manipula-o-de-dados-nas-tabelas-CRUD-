@@ -1,0 +1,15 @@
+create table `sz-00006-ws.turma880.filmes_Luciene`(
+  ID int64,
+  Nome string,
+  Categoria string,
+  duracao int64,
+  Lancamento date,
+)
+select * from turma880.filmes_Luciene
+insert into `sz-00006-ws.turma880.filmes_Luciene` values (1, 'Como eu era antes de voce', 'drama',110, '2016-06-16')
+insert into `sz-00006-ws.turma880.filmes_Luciene` values 
+(2,'Para sempre','romance',104, '2012-06-07'),
+(3,'Arremessando Alto','drama',117,'2022-06-03'),
+(4,'King Richard: Criando Campeas','drama',144,'2021-12-02'),
+(5,'No Ritmo do coração','drama',111,'2021-09-23'),
+(6,'El Camino','crime_drama',122,'2019-10-11');
